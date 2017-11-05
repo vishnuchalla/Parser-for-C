@@ -1,7 +1,7 @@
 A Simple C Compiler to understand the Concepts of Lexical Analyzer and Parser
 
 Compilation Steps 
-	$ lex c.l
-	$ yacc c.y
+	$ lex Compiler.l
+	$ yacc Compiler.y
 	$ gcc y.tab.c -ll -ly 
 	$ ./a.out [filename]
